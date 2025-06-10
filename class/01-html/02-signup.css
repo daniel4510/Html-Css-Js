@@ -1,0 +1,35 @@
+#signupbox {
+    width: 670px;
+    height: 960px;
+    border: 2px solid rgb(144, 173, 228);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(144, 173, 228);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    width: 466px;
+    height: 94px;
+    font-size: 40px;
+    color:rgb(66, 126, 238);
+}
+
+input {
+    border: none;
+    width: 466px;
+    height: 57px;
+}
+
+.inputinfor {
+    width: 466px;
+    height: 80px;
+}
+
+.gender {
+    width: 140px;
+    display: flex;
+}
