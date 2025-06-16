@@ -3,8 +3,15 @@
 <head>
     <title>Document</title>
     <script src="./01-variable.js"></script>
+    <script>
+        const auth = () => {
+            const token = String(Math.floor(Math.random() * 1000000)).padStart(6, "0")
+            document.getElementById("target").innerText = token
+        }
+    </script>
 </head>
 <body>
-    
+    <div id="target">000000</div>
+    <button onclick="auth()">인증번호 전송</button>
 </body>
 </html>
